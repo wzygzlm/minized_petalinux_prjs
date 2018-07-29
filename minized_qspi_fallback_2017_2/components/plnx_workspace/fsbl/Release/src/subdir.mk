@@ -14,7 +14,7 @@ C_SRCS += \
 ../src/nand.c \
 ../src/nor.c \
 ../src/pcap.c \
-/apps_home/home/sroussea/minized_qspi/components/plnx_workspace/fsbl_hwproj/ps7_init.c \
+/home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/components/plnx_workspace/fsbl_hwproj/ps7_init.c \
 ../src/qspi.c \
 ../src/rsa.c \
 ../src/sd.c 
@@ -57,21 +57,21 @@ C_DEPS += \
 src/%.o: ../src/%.S
 	@echo 'Building file: $<'
 	@echo 'Invoking: ARM v7 gcc compiler'
-	arm-none-eabi-gcc -Wall -O2 -I"/apps_home/home/sroussea/minized_qspi/components/plnx_workspace/fsbl_hwproj" -c -fmessage-length=0 -MT"$@" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	arm-none-eabi-gcc -Wall -O2 -I"/home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/components/plnx_workspace/fsbl_hwproj" -c -fmessage-length=0 -MT"$@" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
 src/%.o: ../src/%.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: ARM v7 gcc compiler'
-	arm-none-eabi-gcc -Wall -O2 -I"/apps_home/home/sroussea/minized_qspi/components/plnx_workspace/fsbl_hwproj" -c -fmessage-length=0 -MT"$@" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	arm-none-eabi-gcc -Wall -O2 -I"/home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/components/plnx_workspace/fsbl_hwproj" -c -fmessage-length=0 -MT"$@" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 
-src/ps7_init.o: /apps_home/home/sroussea/minized_qspi/components/plnx_workspace/fsbl_hwproj/ps7_init.c
+src/ps7_init.o: /home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/components/plnx_workspace/fsbl_hwproj/ps7_init.c
 	@echo 'Building file: $<'
 	@echo 'Invoking: ARM v7 gcc compiler'
-	arm-none-eabi-gcc -Wall -O2 -I"/apps_home/home/sroussea/minized_qspi/components/plnx_workspace/fsbl_hwproj" -c -fmessage-length=0 -MT"$@" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
+	arm-none-eabi-gcc -Wall -O2 -I"/home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/components/plnx_workspace/fsbl_hwproj" -c -fmessage-length=0 -MT"$@" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I../../fsbl_bsp/ps7_cortexa9_0/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)" -o "$@" "$<"
 	@echo 'Finished building: $<'
 	@echo ' '
 

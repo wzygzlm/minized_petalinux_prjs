@@ -2,6 +2,10 @@
 <?scdStore version="2"?><scannerInfo id="org.eclipse.cdt.make.core.discoveredScannerInfo">
 <instance id="xilinx.gnu.armv7.exe.debug.1684866281;xilinx.gnu.armv7.exe.debug.1684866281.">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="/home/petalinux/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/include"/>
+<includePath path="/home/petalinux/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/include-fixed"/>
+<includePath path="/home/petalinux/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/include"/>
+<includePath path="/home/petalinux/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/include"/>
 <includePath path="/apps_home/Xilinx/petalinux-v2017.2/tools/linux-i386/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/include"/>
 <includePath path="/apps_home/Xilinx/petalinux-v2017.2/tools/linux-i386/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/include-fixed"/>
 <includePath path="/apps_home/Xilinx/petalinux-v2017.2/tools/linux-i386/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/include"/>
@@ -716,6 +720,10 @@
 </instance>
 <instance id="xilinx.gnu.armv7.exe.debug.1684866281;xilinx.gnu.armv7.exe.debug.1684866281.;xilinx.gnu.armv7.c.toolchain.compiler.debug.1704420772;xilinx.gnu.armv7.c.compiler.input.2053430375">
 <collector id="org.eclipse.cdt.make.core.PerProjectSICollector">
+<includePath path="/home/petalinux/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/include"/>
+<includePath path="/home/petalinux/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/include-fixed"/>
+<includePath path="/home/petalinux/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/include"/>
+<includePath path="/home/petalinux/petalinux/tools/linux-i386/gcc-arm-none-eabi/bin/../arm-none-eabi/libc/usr/include"/>
 <includePath path="/apps_home/Xilinx/petalinux-v2017.2/tools/linux-i386/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/include"/>
 <includePath path="/apps_home/Xilinx/petalinux-v2017.2/tools/linux-i386/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/include-fixed"/>
 <includePath path="/apps_home/Xilinx/petalinux-v2017.2/tools/linux-i386/gcc-arm-none-eabi/bin/../lib/gcc/arm-none-eabi/6.2.1/../../../../arm-none-eabi/include"/>

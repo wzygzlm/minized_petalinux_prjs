@@ -4214,6 +4214,8 @@ CONFIG_bridge-utils=y
 CONFIG_dialog-control=y
 # CONFIG_gpio-demo is not set
 CONFIG_i2csensor=y
+CONFIG_myapp=y
+CONFIG_myapp-init=y
 # CONFIG_peekpoke is not set
 
 #

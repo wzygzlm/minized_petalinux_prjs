@@ -15,7 +15,7 @@ src/nand.o src/nand.o: ../src/nand.c \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xil_io.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xstatus.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xil_assert.h ../src/fsbl_debug.h \
- /apps_home/home/sroussea/minized_qspi/components/plnx_workspace/fsbl_hwproj/ps7_init.h
+ /home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/components/plnx_workspace/fsbl_hwproj/ps7_init.h
 
 ../../fsbl_bsp/ps7_cortexa9_0/include/xparameters.h:
 
@@ -55,4 +55,4 @@ src/nand.o src/nand.o: ../src/nand.c \
 
 ../src/fsbl_debug.h:
 
-/apps_home/home/sroussea/minized_qspi/components/plnx_workspace/fsbl_hwproj/ps7_init.h:
+/home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/components/plnx_workspace/fsbl_hwproj/ps7_init.h:

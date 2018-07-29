@@ -1,7 +1,7 @@
-# 1 "/apps_home/home/sroussea/minized_qspi/build/../components/plnx_workspace/device-tree-generation/system-top.dts"
+# 1 "/home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/build/../components/plnx_workspace/device-tree-generation/system-top.dts"
 # 1 "<built-in>"
 # 1 "<command-line>"
-# 1 "/apps_home/home/sroussea/minized_qspi/build/../components/plnx_workspace/device-tree-generation/system-top.dts"
+# 1 "/home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/build/../components/plnx_workspace/device-tree-generation/system-top.dts"
 
 
 
@@ -32,7 +32,7 @@
   /delete-node/ cpu@1 ;
  };
 };
-# 1 "/apps_home/home/sroussea/minized_qspi/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/device-tree-generation/xilinx+gitAUTOINC+43551819a1-r0/system-user.dtsi" 1
+# 1 "/home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/build/tmp/work/plnx_arm-xilinx-linux-gnueabi/device-tree-generation/xilinx+gitAUTOINC+43551819a1-r0/system-user.dtsi" 1
 /include/ "system-conf.dtsi"
 / {
 
@@ -165,4 +165,4 @@
 / {
 
 };
-# 31 "/apps_home/home/sroussea/minized_qspi/build/../components/plnx_workspace/device-tree-generation/system-top.dts" 2
+# 31 "/home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/build/../components/plnx_workspace/device-tree-generation/system-top.dts" 2

@@ -15,7 +15,7 @@ src/qspi.o src/qspi.o: ../src/qspi.c ../src/qspi.h ../src/fsbl.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xil_io.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xstatus.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xil_assert.h ../src/fsbl_debug.h \
- /apps_home/home/sroussea/minized_qspi/components/plnx_workspace/fsbl_hwproj/ps7_init.h \
+ /home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/components/plnx_workspace/fsbl_hwproj/ps7_init.h \
  ../src/image_mover.h ../../fsbl_bsp/ps7_cortexa9_0/include/xqspips_hw.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xqspips.h \
  ../../fsbl_bsp/ps7_cortexa9_0/include/xqspips_hw.h
@@ -60,7 +60,7 @@ src/qspi.o src/qspi.o: ../src/qspi.c ../src/qspi.h ../src/fsbl.h \
 
 ../src/fsbl_debug.h:
 
-/apps_home/home/sroussea/minized_qspi/components/plnx_workspace/fsbl_hwproj/ps7_init.h:
+/home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_2017_2/components/plnx_workspace/fsbl_hwproj/ps7_init.h:
 
 ../src/image_mover.h:
 
