@@ -1,0 +1,6 @@
+*/config.old
+.petalinux/*
+!.petalinux/metadata
+*.o
+*.jou
+*.log
