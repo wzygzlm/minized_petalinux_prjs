@@ -14,9 +14,9 @@
 #
 # sudo 
 #
-# CONFIG_sudo is not set
+CONFIG_sudo=y
 # CONFIG_sudo-dbg is not set
-# CONFIG_sudo-dev is not set
+CONFIG_sudo-dev=y
 
 #
 # base 
@@ -331,8 +331,8 @@ CONFIG_mtd-utils=y
 #
 # util-linux 
 #
-# CONFIG_util-linux is not set
-# CONFIG_util-linux-dev is not set
+CONFIG_util-linux=y
+CONFIG_util-linux-dev=y
 # CONFIG_util-linux-fsck.cramfs is not set
 # CONFIG_util-linux-swaponoff is not set
 # CONFIG_util-linux-sfdisk is not set
@@ -351,12 +351,12 @@ CONFIG_mtd-utils=y
 # CONFIG_util-linux-cfdisk is not set
 # CONFIG_util-linux-agetty is not set
 # CONFIG_util-linux-reset is not set
-# CONFIG_util-linux-bash-completion is not set
+CONFIG_util-linux-bash-completion=y
 # CONFIG_util-linux-lscpu is not set
 # CONFIG_util-linux-prlimit is not set
 # CONFIG_util-linux-umount is not set
 # CONFIG_util-linux-partx is not set
-# CONFIG_util-linux-mkfs is not set
+CONFIG_util-linux-mkfs=y
 # CONFIG_util-linux-readprofile is not set
 # CONFIG_util-linux-uuidgen is not set
 # CONFIG_util-linux-mount is not set
@@ -449,16 +449,16 @@ CONFIG_canutils=y
 #
 # minicom 
 #
-# CONFIG_minicom is not set
+CONFIG_minicom=y
 # CONFIG_minicom-dbg is not set
-# CONFIG_minicom-dev is not set
+CONFIG_minicom-dev=y
 
 #
 # nfs-utils 
 #
-# CONFIG_nfs-utils is not set
-# CONFIG_nfs-utils-dev is not set
-# CONFIG_nfs-utils-client is not set
+CONFIG_nfs-utils=y
+CONFIG_nfs-utils-dev=y
+CONFIG_nfs-utils-client=y
 # CONFIG_nfs-utils-stats is not set
 # CONFIG_nfs-utils-dbg is not set
 
@@ -538,8 +538,8 @@ CONFIG_openssh-sftp-server=y
 #
 # wget 
 #
-# CONFIG_wget is not set
-# CONFIG_wget-dev is not set
+CONFIG_wget=y
+CONFIG_wget-dev=y
 # CONFIG_wget-dbg is not set
 
 #
@@ -587,8 +587,8 @@ CONFIG_openssh-sftp-server=y
 #
 # bash-completion 
 #
-# CONFIG_bash-completion is not set
-# CONFIG_bash-completion-dev is not set
+CONFIG_bash-completion=y
+CONFIG_bash-completion-dev=y
 # CONFIG_bash-completion-extra is not set
 # CONFIG_bash-completion-dbg is not set
 
@@ -624,11 +624,11 @@ CONFIG_openssh-sftp-server=y
 #
 # git 
 #
-# CONFIG_git is not set
+CONFIG_git=y
 # CONFIG_git-bash-completion is not set
 # CONFIG_gitweb is not set
 # CONFIG_git-perltools is not set
-# CONFIG_git-dev is not set
+CONFIG_git-dev=y
 # CONFIG_git-dbg is not set
 
 #
@@ -725,9 +725,9 @@ CONFIG_pciutils=y
 #
 # pkgconfig 
 #
-# CONFIG_pkgconfig is not set
+CONFIG_pkgconfig=y
 # CONFIG_pkgconfig-dbg is not set
-# CONFIG_pkgconfig-dev is not set
+CONFIG_pkgconfig-dev=y
 
 #
 # screen 
@@ -796,9 +796,9 @@ CONFIG_pciutils=y
 #
 # vim 
 #
-# CONFIG_vim is not set
+CONFIG_vim=y
 # CONFIG_vim-syntax is not set
-# CONFIG_vim-dev is not set
+CONFIG_vim-dev=y
 # CONFIG_vim-help is not set
 # CONFIG_vim-common is not set
 # CONFIG_vim-vimrc is not set
@@ -820,8 +820,8 @@ CONFIG_pciutils=y
 #
 # autoconf 
 #
-# CONFIG_autoconf is not set
-# CONFIG_autoconf-dev is not set
+CONFIG_autoconf=y
+CONFIG_autoconf-dev=y
 # CONFIG_autoconf-dbg is not set
 
 #
@@ -945,9 +945,9 @@ CONFIG_pciutils=y
 #
 # make 
 #
-# CONFIG_make is not set
+CONFIG_make=y
 # CONFIG_make-dbg is not set
-# CONFIG_make-dev is not set
+CONFIG_make-dev=y
 
 #
 # mpfr 
@@ -976,7 +976,7 @@ CONFIG_pciutils=y
 #
 # python 
 #
-# CONFIG_python is not set
+CONFIG_python=y
 # CONFIG_python-dbg is not set
 # CONFIG_python-mailbox is not set
 # CONFIG_python-resource is not set
@@ -1002,7 +1002,7 @@ CONFIG_pciutils=y
 # CONFIG_python-email is not set
 # CONFIG_python-contextlib is not set
 # CONFIG_python-netclient is not set
-# CONFIG_python-dev is not set
+CONFIG_python-dev=y
 # CONFIG_python-idle is not set
 # CONFIG_python-modules is not set
 # CONFIG_python-logging is not set
@@ -1080,8 +1080,8 @@ CONFIG_pciutils=y
 #
 # python-numpy 
 #
-# CONFIG_python-numpy is not set
-# CONFIG_python-numpy-dev is not set
+CONFIG_python-numpy=y
+CONFIG_python-numpy-dev=y
 # CONFIG_python-numpy-dbg is not set
 
 #
@@ -1723,7 +1723,7 @@ CONFIG_run-postinsts=y
 #
 # libusb-compat 
 #
-# CONFIG_libusb-compat is not set
+CONFIG_libusb-compat=y
 # CONFIG_libusb-compat-dev is not set
 # CONFIG_libusb-compat-bin is not set
 # CONFIG_libusb-compat-dbg is not set
@@ -1731,9 +1731,9 @@ CONFIG_run-postinsts=y
 #
 # libusb1 
 #
-# CONFIG_libusb1 is not set
+CONFIG_libusb1=y
 # CONFIG_libusb1-dbg is not set
-# CONFIG_libusb1-dev is not set
+CONFIG_libusb1-dev=y
 
 #
 # libvorbis 
@@ -2363,8 +2363,8 @@ CONFIG_run-postinsts=y
 #
 # gcc-runtime 
 #
-# CONFIG_libstdcPLUSPLUS is not set
-# CONFIG_libstdcPLUSPLUS-dev is not set
+CONFIG_libstdcPLUSPLUS=y
+CONFIG_libstdcPLUSPLUS-dev=y
 
 #
 # gcc-sanitizers 
@@ -2398,17 +2398,17 @@ CONFIG_run-postinsts=y
 #
 # glib-2.0 
 #
-# CONFIG_glib-2.0 is not set
+CONFIG_glib-2.0=y
 # CONFIG_glib-2.0-codegen is not set
-# CONFIG_glib-2.0-utils is not set
+CONFIG_glib-2.0-utils=y
 # CONFIG_glib-2.0-dbg is not set
 # CONFIG_glib-2.0-bash-completion is not set
-# CONFIG_glib-2.0-dev is not set
+CONFIG_glib-2.0-dev=y
 
 #
 # glibc 
 #
-# CONFIG_ldd is not set
+CONFIG_ldd=y
 
 #
 # gnome-desktop-testing 
@@ -4214,11 +4214,16 @@ CONFIG_bridge-utils=y
 CONFIG_dialog-control=y
 # CONFIG_gpio-demo is not set
 CONFIG_i2csensor=y
+# CONFIG_libcaer-lib-and-test is not set
+# CONFIG_myapp is not set
+# CONFIG_myapp-init is not set
 # CONFIG_peekpoke is not set
+# CONFIG_testlibusb is not set
 
 #
 # user packages 
 #
+# CONFIG_libcaer is not set
 
 #
 # PetaLinux RootFS Settings
