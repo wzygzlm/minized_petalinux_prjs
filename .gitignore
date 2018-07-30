@@ -3,3 +3,7 @@ minized_qspi_fallback_2017_2/hardware/
 minized_qspi_fallback_2017_2/build/
 minized_qspi_fallback_2017_2/images/
 minized_qspi_fallback_2017_2/project-spec/configs/rootfs_config.old
+minized_qspi_fallback_sdsoc_with_libcaer_2017_2/hardware/
+minized_qspi_fallback_sdsoc_with_libcaer_2017_2/build/
+minized_qspi_fallback_sdsoc_with_libcaer_2017_2/images/
+minized_qspi_fallback_sdsoc_with_libcaer_2017_2/project-spec/configs/rootfs_config.old
