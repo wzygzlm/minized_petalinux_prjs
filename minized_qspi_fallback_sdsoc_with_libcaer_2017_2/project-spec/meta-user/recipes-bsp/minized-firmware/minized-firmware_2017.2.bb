@@ -5,7 +5,9 @@ LIC_FILES_CHKSUM = "file://COPYING;md5=12f884d2ae1ff87c09e5b7ccc2c4ca7e"
 
 #FILESEXTRAPATHS_prepend := "${THISDIR}/minized-firmware:"
 
-SRC_URI = "file://minized-firmware_${PV}.tar.gz"
+SRC_URI = "file://minized-firmware_${PV}.tar.gz \
+           file://rt2x_firmware/* \
+"
 
 # This is needed for the wl_fmac_imx utility
 DEPENDS = "libnl"
@@ -20,6 +22,7 @@ do_install() {
 	install -m 644 ${WORKDIR}/bcmdhd.1DX.SDIO.cal ${D}/lib/firmware/brcm/brcmfmac43430-sdio.txt
 	install -m 644 ${WORKDIR}/BCM43430A1.1DX.hcd ${D}/etc/firmware     
 	install -m 755 ${WORKDIR}/wl_fmac_imx ${D}/usr/bin/wl
+	install -m 644 ${WORKDIR}/rt2x_firmware/*.bin ${D}/lib/firmware
 }
 
 PACKAGES =+ "${PN}-wl"
@@ -28,6 +31,7 @@ FILES_${PN} = " \
 	/lib/firmware/brcm/brcmfmac43430-sdio.bin \
 	/lib/firmware/brcm/brcmfmac43430-sdio.txt \
 	/etc/firmware/BCM43430A1.1DX.hcd \	
+	/lib/firmware/*.bin \
 "
 
 FILES_${PN}-wl = " \
