@@ -4214,16 +4214,16 @@ CONFIG_bridge-utils=y
 CONFIG_dialog-control=y
 # CONFIG_gpio-demo is not set
 CONFIG_i2csensor=y
-# CONFIG_libcaer-lib-and-test is not set
-# CONFIG_myapp is not set
-# CONFIG_myapp-init is not set
+CONFIG_libcaer-lib-and-test=y
+CONFIG_myapp=y
+CONFIG_myapp-init=y
 # CONFIG_peekpoke is not set
-# CONFIG_testlibusb is not set
+CONFIG_testlibusb=y
 
 #
 # user packages 
 #
-# CONFIG_libcaer is not set
+CONFIG_libcaer=y
 
 #
 # PetaLinux RootFS Settings
