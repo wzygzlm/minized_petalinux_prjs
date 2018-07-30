@@ -127,6 +127,9 @@
 
 };
 
-/ {
-
+/* xlnk */
+/{
+	xlnk {
+		compatible = "xlnk, xlnk-1.0";
+	};
 };
