@@ -698,7 +698,7 @@ CONFIG_git-dev=y
 #
 # mc 
 #
-# CONFIG_mc is not set
+CONFIG_mc=y
 # CONFIG_mc-dev is not set
 # CONFIG_mc-helpers-perl is not set
 # CONFIG_mc-helpers-python is not set
@@ -2390,10 +2390,10 @@ CONFIG_libstdcPLUSPLUS-dev=y
 #
 # gdb 
 #
-# CONFIG_gdb is not set
+CONFIG_gdb=y
 # CONFIG_gdb-dbg is not set
 # CONFIG_gdb-dev is not set
-# CONFIG_gdbserver is not set
+CONFIG_gdbserver=y
 
 #
 # glib-2.0 
