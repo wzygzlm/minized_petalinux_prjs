@@ -210,7 +210,7 @@ CONFIG_YOCTO_MACHINE_NAME="plnx-zynq7"
 #
 # TMPDIR Location
 #
-CONFIG_TMP_DIR_LOCATION="/home/petalinux/nnp_petalinux_prjs/custom_nnp_2017_2/build/tmp"
+CONFIG_TMP_DIR_LOCATION="/home/petalinux/github_prjs/minized_petalinux_prjs/minized_qspi_fallback_sdsoc_with_libcaer_2017_2/build/tmp"
 
 #
 # Parallel thread execution
