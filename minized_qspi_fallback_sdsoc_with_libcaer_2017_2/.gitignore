@@ -4,4 +4,4 @@
 *.o
 *.jou
 *.log
-project-spec/meta-plnx-generated
+project-spec/meta-plnx-generated/
