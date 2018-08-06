@@ -204,7 +204,7 @@ CONFIG_SUBSYSTEM_MACHINE_NAME="template"
 #
 # TMPDIR Location
 #
-CONFIG_TMP_DIR_LOCATION="/home/petalinux/nnp_petalinux_prjs/custom_nnp_2017_2/build/tmp"
+CONFIG_TMP_DIR_LOCATION="/home/petalinux/minized_petalinux_prjs/minized_qspi_fallback/minized_qspi_fallback_sdsoc_with_libcaer_2017_2/build/tmp"
 
 #
 # Parallel thread execution
@@ -235,4 +235,6 @@ CONFIG_YOCTO_NETWORK_SSTATE_FEEDS_URL="http://petalinux.xilinx.com/sswreleases/r
 # User Layers
 #
 CONFIG_USER_LAYER_0=""
+
+
 CONFIG_SUBSYSTEM_BOOTARGS_GENERATED="console=ttyPS0,115200 earlyprintk"
