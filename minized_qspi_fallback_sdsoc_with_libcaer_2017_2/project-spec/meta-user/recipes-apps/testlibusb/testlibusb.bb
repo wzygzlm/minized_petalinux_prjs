@@ -12,6 +12,11 @@ SRC_URI = "file://testlibusb.c \
 		  "
 
 S = "${WORKDIR}"
+ 
+# Add dependency libraires if any
+# for example DEPENDS = "libpcap"
+DEPENDS = "libusb1"
+ 
 
 do_compile() {
 	     oe_runmake
